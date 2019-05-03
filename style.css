@@ -59,7 +59,7 @@ li {
 li, p {
     font-size: 0.95rem;
     letter-spacing: .00em;
-    line-height: 1.8;
+    line-height: 2.0em;
     word-spacing: .02em;
 }
 
@@ -109,13 +109,12 @@ pre {
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
+#contact-content {
+    margin-left: 5px;
+}
+
 #contact-content i {
     margin-right: 8px;
     font-size: 20px;
     vertical-align: middle;
-}
-
-#contact-content {
-    margin-left: 5px;
-    line-height: 2.0em;
 }
