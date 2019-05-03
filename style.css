@@ -114,3 +114,8 @@ pre {
     font-size: 20px;
     vertical-align: middle;
 }
+
+#contact-content {
+    margin-left: 5px;
+    line-height: 2.0em;
+}
