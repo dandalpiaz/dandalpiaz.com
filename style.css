@@ -54,12 +54,16 @@ li {
     margin-left: 1em;
     overflow-wrap: break-word;
     padding-left: 5px;
+    line-height: 1.85em;
+}
+
+p {
+    line-height: 1.75em;
 }
 
 li, p {
     font-size: 0.95rem;
     letter-spacing: .00em;
-    line-height: 2.0em;
     word-spacing: .02em;
 }
 
@@ -111,6 +115,7 @@ pre {
 
 #contact-content {
     margin-left: 5px;
+    line-height: 2.0em;
 }
 
 #contact-content i {
