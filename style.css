@@ -1,116 +1,21 @@
 
-*, *:before, *:after {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
-}
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
-html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    height: 100%;
+main.container {
+    max-width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
 }
 
 body {
-    margin: 15px;
-    margin-top: 5px;
-    padding: 15px;
-    background: #fff;
-    color: rgba(0,0,0,.8);
-    font-family: "Noto Serif","DejaVu Serif",serif;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1;
-    word-break: break-word;
-}
-
-.container {
-    margin-right: auto;
-    clear: both;
-    max-width: 1000px;
-}
-
-a {
-    color: #185cdc;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:visited {
-    color: #185cdc;
-}
-
-ul, ol {
-    padding-left: 20px;
-    margin-top: 0px;
-}
-
-li {
-    list-style-position: outside;
-    margin-left: 1em;
-    overflow-wrap: break-word;
-    padding-left: 5px;
-    line-height: 2.0em;
-}
-
-p {
-    line-height: 1.75em;
-}
-
-li, p {
-    font-size: 1.0rem;
-    letter-spacing: .00em;
-    word-spacing: .02em;
-}
-
-h1, h2 {
-    font-family: "Open Sans","DejaVu Sans",sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-rendering: optimizeLegibility;
-}
-
-h1 {
-    font-size: 2.75em;
-    color: rgba(0,0,0,.85);
-    line-height: 1.2em;
-    margin-top: .3em;
-    margin-bottom: .5em;
-}
-
-h2 {
-    font-size: 2.25em;
-    color: #ba3921;
-    margin-bottom: .6em;
-}
-
-h3 {
-    margin-top: 35px;
-}
-
-img {
-    max-width: 100%;
-}
-
-pre code {
-    background-color: #F0F0F0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    display: block;
-    padding: 15px;
-}
-
-pre {
-    margin: 0px;
-    white-space: pre-wrap;       /* css-3 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
 #contact-content {
@@ -122,4 +27,48 @@ pre {
     margin-right: 8px;
     font-size: 20px;
     vertical-align: middle;
+}
+
+.profile {
+    max-width: 100px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 5px;
+}
+
+h1, h2, strong {
+    font-weight: 500;
+    color: #667;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+p, li {
+    color: #566b78;
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+    color: #185cdc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.yt-caption {
+    float: right;
+    margin: 0px;
+    margin-top: 3px;
+    font-size: 14px;
 }
